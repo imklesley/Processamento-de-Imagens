@@ -13,7 +13,7 @@ def buscaMenorMaior(m): # vai buscar menor e maior valor da imagem
     aux = sorted(aux) # retorna as chaves em ordem
     return aux[0], aux[-1] # retorna o menor valor e maior valor da imagem
 
-imagem = Image.open('mario.jpg')
+imagem = Image.open('teste3.jpg')
 imagem = imagem.convert('L')
 imagem.show()
 matriz = np.asanyarray(imagem)

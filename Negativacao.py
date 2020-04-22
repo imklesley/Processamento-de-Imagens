@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 
-imagem = Image.open('teste10.jpg')
+imagem = Image.open('teste0.jpg')
 imagem = imagem.convert('L')
 imagem.show()
 matriz = np.asanyarray(imagem)
